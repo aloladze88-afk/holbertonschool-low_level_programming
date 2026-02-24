@@ -1,0 +1,9 @@
+# Local test mains (keep locally, don't push)
+functions_nested_loops/5-main.c
+
+# Compiled binaries
+a.out
+functions_nested_loops/5-sign
+
+# Object files
+*.o
