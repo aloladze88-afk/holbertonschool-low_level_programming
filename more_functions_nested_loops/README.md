@@ -1,0 +1,1 @@
+This project practises writing simple C functions and using nested loops. It focuses on working with characters and integers, checking conditions (like uppercase or digits), and printing patterns or sequences using _putchar. All functions are written in separate .c files with prototypes in main.h, following Betty style.
