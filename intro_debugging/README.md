@@ -1,0 +1,1 @@
+This project practises basic C debugging: spotting logical bugs, tracing execution step by step (e.g., with Python Tutor).
