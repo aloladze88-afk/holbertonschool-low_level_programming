@@ -7,7 +7,9 @@
  */
 int main (void) 
 {
-    int choice;    
+    int choice;  
+    
+    do {
 
     printf("Simple Calculator\n");
     printf("1) Add\n");
@@ -18,13 +20,16 @@ int main (void)
     printf("Choice: ");
     scanf("%d", &choice);
 
-    if(choice == 0) {
-        printf("Bye!\n");
-
+      if(choice > 4 || choice < 0) {
+        printf("Invalid choice\n");
     }
- 
   
+    }
+    while(choice != 0);
 
+    printf("Bye!\n");
+    
 
+  
     return (0);
 }
