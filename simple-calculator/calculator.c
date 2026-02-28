@@ -7,7 +7,10 @@
  */
 int main (void) 
 {
-    int choice;  
+    int choice;
+    int A;
+    int B;
+    int Result;
     
     do {
 
@@ -23,13 +26,25 @@ int main (void)
       if(choice > 4 || choice < 0) {
         printf("Invalid choice\n");
     }
+
+
+     if(choice == 1){
+        printf("A: ");
+        scanf("%d", &A);
+        printf("B: ");
+        scanf("%d", &B);
+        Result = A + B;
+        printf("Result: %d\n", Result);
+    }
   
     }
     while(choice != 0);
 
     printf("Bye!\n");
-    
 
-  
+   
+
+   
+     
     return (0);
 }
