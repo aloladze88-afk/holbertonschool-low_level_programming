@@ -28,13 +28,22 @@ int main (void)
     }
 
 
-     if(choice == 1){
+     if(choice > 0 && choice <= 4){
         printf("A: ");
         scanf("%d", &A);
         printf("B: ");
         scanf("%d", &B);
+        if(choice ==1){
         Result = A + B;
         printf("Result: %d\n", Result);
+
+        }
+        else if(choice == 2){
+        Result = A - B;
+        printf("Result: %d\n", Result);
+        
+    }
+   
     }
   
     }
