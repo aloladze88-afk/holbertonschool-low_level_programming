@@ -1,0 +1,1 @@
+Green Tech Efficiency & Benchmarking Lab: a small set of C exercises focused on measuring performance properly, not guessing it.
