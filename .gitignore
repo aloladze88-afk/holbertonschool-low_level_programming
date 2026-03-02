@@ -18,3 +18,5 @@ simple-calculator/calculator
 simple-calculatorcalculator.exe
 baseline_loop.c
 baseline_loop
+benchmarking/comparison_algorithms
+benchmarking/comparison_algorithms.c
