@@ -16,3 +16,5 @@ functions_nested_loops/11-98
 .gitignore
 simple-calculator/calculator
 simple-calculatorcalculator.exe
+baseline_loop.c
+baseline_loop
