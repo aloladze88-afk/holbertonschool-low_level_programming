@@ -1,0 +1,1 @@
+This folder covers the basics of pointers, arrays, and strings in C: using addresses and dereferencing, passing pointers to functions, understanding how arrays are stored in memory, and working with C strings as null-terminated char arrays.
