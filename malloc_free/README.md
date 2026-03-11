@@ -1,0 +1,1 @@
+This project introduces dynamic memory allocation in C using malloc and free. The main goal is to understand the difference between automatic memory, which is created and removed automatically, and dynamic memory, which the program requests and releases manually.
