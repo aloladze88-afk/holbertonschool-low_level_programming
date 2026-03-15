@@ -1,0 +1,1 @@
+This project teaches how to use function pointers in C. A function pointer stores the address of a function, making it possible to pass functions as arguments and call them indirectly. This allows code to be more flexible and reusable, since the same function can perform different actions depending on which function is passed to it.
