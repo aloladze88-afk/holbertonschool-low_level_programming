@@ -4,12 +4,13 @@
  * _strdup - duplicates a string
  * @str: string to duplicate
  *
- * Return: pointer to new string, or NULL if it fails
+ * Return: pointer to the duplicated string, or NULL
  */
 char *_strdup(const char *str)
 {
 	char *copy;
-	int len, i;
+	unsigned int len;
+	unsigned int i;
 
 	if (str == NULL)
 		return (NULL);
@@ -29,17 +30,18 @@ char *_strdup(const char *str)
 }
 
 /**
- * hash_table_set - adds or updates an element in a hash table
+ * hash_table_set - adds an element to the hash table
  * @ht: hash table
  * @key: key
  * @value: value associated with the key
  *
- * Return: 1 on success, 0 on failure
+ * Return: 1 if it succeeded, 0 otherwise
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
-	hash_node_t *node, *current;
+	hash_node_t *node;
+	hash_node_t *current;
 	char *new_value;
 
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
@@ -55,7 +57,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			new_value = _strdup(value);
 			if (new_value == NULL)
 				return (0);
-
 			free(current->value);
 			current->value = new_value;
 			return (1);
