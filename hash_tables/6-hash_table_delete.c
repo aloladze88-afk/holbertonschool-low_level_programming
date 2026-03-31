@@ -1,9 +1,8 @@
-#include <stdlib.h>
 #include "hash_tables.h"
 
 /**
  * hash_table_delete - deletes a hash table
- * @ht: pointer to the hash table
+ * @ht: hash table to delete
  */
 void hash_table_delete(hash_table_t *ht)
 {
@@ -17,7 +16,6 @@ void hash_table_delete(hash_table_t *ht)
 	for (i = 0; i < ht->size; i++)
 	{
 		current = ht->array[i];
-
 		while (current != NULL)
 		{
 			temp = current->next;
