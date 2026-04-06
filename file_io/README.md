@@ -1,0 +1,1 @@
+This project introduces file input and output in C using low-level system calls. It focuses on how programs open, read, write, create, and manage files, while also handling errors carefully.
